@@ -1,0 +1,214 @@
+/*------------------------------------------------*/
+/*----------------- M O B I L E ------------------*/
+/*------------------------------------------------*/
+/*---------- BASE ----------*/
+.container {
+  max-width: 425px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 700;
+  padding: 0.3em;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: 700;
+  padding: 0.5em 0;
+}
+
+p {
+  font-size: 1.2em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+/*---------- HEADER ----------*/
+.logo_title {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+}
+
+/*---------- GENERAL ----------*/
+.home,
+.how_to,
+.restaurants {
+  padding: 1.5em;
+}
+
+/*---------- LOCATION ----------*/
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: rgb(236, 236, 236);
+  height: 3.6em;
+  color: rgb(80, 80, 80);
+}
+
+.location_icon {
+  margin-right: 1rem;
+}
+
+.location_text {
+  font-weight: bolder;
+}
+
+/*---------- MENU ----------*/
+.home {
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+}
+
+.home_title {
+  margin-top: 0;
+}
+
+.home_text {
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.home_btn {
+  border-radius: 5rem 5rem;
+  padding: 1rem 1rem;
+  background-image: linear-gradient(to bottom, #FF79DA 0%, #ac6ff7 100%);
+  color: white;
+  border: none;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  font-size: 1em;
+}
+
+/*---------- HOW TO ----------*/
+.how_to li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  border-radius: 1.25rem;
+  padding: 0.4rem;
+  margin: 0 0 1.5rem 0;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+  position: relative;
+}
+
+.how_to_icon {
+  font-size: 1.2em;
+  color: #5f5d5d;
+  padding-left: 1.5rem;
+}
+
+.how_to_text {
+  margin-right: 2rem;
+  font-weight: bolder;
+}
+
+.how_to_count {
+  background-color: #9356DC;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: 0;
+}
+
+/*---------- RESTAURANTS ----------*/
+.restaurants {
+  background-color: #f6f6f6;
+}
+
+.bloc_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+}
+
+.cards img {
+  object-fit: cover;
+  width: 100%;
+  height: 10rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.new_cards {
+  position: absolute;
+  right: 5%;
+  background-color: #99E2D0;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.1rem;
+  color: rgb(8, 97, 63);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+
+.cards p {
+  font-size: 1em;
+  margin: 0.25em;
+}
+
+.cards a {
+  text-decoration: none;
+  background-color: #f6f6f6;
+}
+
+.cards_desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.13);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.cards_btn {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.fa-heart {
+  background-color: transparent;
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
